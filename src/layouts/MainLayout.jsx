@@ -8,7 +8,7 @@ const MainLayout = ({ children }) => {
           <img className="logo" src="/assets/imgs/logo.png" alt="logo" />
 
           <div className="btn">
-            <div className="btn-text">Connect wallet</div>
+            <div className="btn-text">Connect WALLET</div>
           </div>
         </div>
       </div>

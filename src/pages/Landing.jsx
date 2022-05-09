@@ -8,12 +8,12 @@ const Landing = () => {
   const changeNumber = (payload) => {
     return setNumberState((prevState) => {
       if (payload === "inc") {
-        return prevState + 1;
+        return prevState + 2;
       } else if (payload === "dec") {
         if (prevState < 2) {
-          return 1;
+          return 0;
         }
-        return prevState - 1;
+        return prevState - 2;
       }
     });
   };
