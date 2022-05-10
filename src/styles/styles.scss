@@ -128,6 +128,11 @@
       margin-left: auto;
       margin-right: auto;
 
+      @media screen and (min-width: 992px) {
+        padding-top: 2vh;
+        padding-bottom: 4vh;
+      }
+
       @media screen and (max-width: 575px) {
         border-radius: 20px;
       }
@@ -158,6 +163,11 @@
     height: 80px;
     border: 2px solid #000;
     max-width: 300px;
+
+    @media screen and (min-width: 992px) {
+      height: 7vh;
+      font-size: 3.5vh;
+    }
 
     @media screen and (max-width: 575px) {
       font-size: 40px;
