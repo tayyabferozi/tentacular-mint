@@ -8,6 +8,11 @@
   #header {
     padding: 2rem;
 
+    @media screen and (min-width: 992px) {
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+    }
+
     .page-container {
       display: flex;
       align-items: center;
@@ -57,7 +62,7 @@
     @media screen and (min-width: 992px) {
       min-height: unset;
       padding-bottom: unset;
-      height: calc(100vh - 120px);
+      height: calc(100vh - 56px - 3vh - 3vh);
     }
 
     .trees,
@@ -100,6 +105,11 @@
     background: url("../assets/bg-board.png");
     background-size: 130%;
     background-position: center;
+
+    @media screen and (min-width: 992px) {
+      font-size: 4vh;
+      height: 9vh;
+    }
   }
 
   .mint-box {
@@ -113,6 +123,7 @@
 
     @media screen and (min-width: 992px) {
       margin-top: 4vh;
+      padding: 4vh;
     }
 
     @media screen and (max-width: 575px) {
